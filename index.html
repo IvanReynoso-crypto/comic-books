@@ -39,6 +39,16 @@
       </ol>
     </section>
 
+    <!-- El juego: HTML es la estructura, game.js es el movimiento -->
+    <section class="panel">
+      <h2>🎮 Juego: Memoria de cómics</h2>
+      <p>Encuentra las 8 parejas de símbolos de cómics. Toca 2 cartas: si son iguales, se quedan abiertas.</p>
+      <p id="game-moves">Movimientos: 0</p>
+      <div id="game-board" class="game-board"></div>
+      <p id="game-message">Toca una carta para empezar. ¡Encuentra las 8 parejas!</p>
+      <button id="game-restart">🔄 Jugar otra vez</button>
+    </section>
+
     <section class="panel">
       <h2>My favorites</h2>
       <ul>
@@ -53,5 +63,7 @@
   <footer>
     <p>Made by a beginner, learning HTML and CSS. POW! 💫</p>
   </footer>
+  <!-- game.js va al final para que primero cargue toda la página -->
+  <script src="game.js"></script>
 </body>
 </html>

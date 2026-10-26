@@ -37,3 +37,38 @@ main {
 h2 {
   color: #e60000;
 }
+
+/* Estilos del juego de memoria */
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.card {
+  font-size: 32px;
+  padding: 18px 5px;
+  background-color: #ffde59;
+  border: 3px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card.open {
+  background-color: white;
+}
+
+.card.matched {
+  background-color: #b6f2b6;
+}
+
+#game-restart {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #e60000;
+  color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
