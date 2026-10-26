@@ -1,0 +1,39 @@
+/* style.css = the decoration for index.html */
+
+body {
+  font-family: Arial, sans-serif;
+  /* Colorful background: a comic-style gradient from yellow to pink to blue.
+     Change these colors to any colors you like! */
+  background: linear-gradient(135deg, #ffde59 0%, #ff6b9d 45%, #4ecdc4 100%);
+  background-attachment: fixed;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #e60000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+main {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Each .panel looks like a comic book panel */
+.panel {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 0 black;
+}
+
+h2 {
+  color: #e60000;
+}
